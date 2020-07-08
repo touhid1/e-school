@@ -1,60 +1,115 @@
+.total-padding{
+    margin-bottom: 50px;
+}
+.bootom-padding{
+    margin-bottom: 80px;
+}
 .container{
-    margin-bottom:100px;
-}
-.orange-bg{
-    background-color:#FEEAE9;
-}
-.carousel-item{
-    padding:20px 40px;
-}
-.price{
-   color:#FF2178;
+    padding-bottom:50px;
 }
 
-.buy-btn{
-    background-image:linear-gradient(to right, #FF2178, red  );
-    border-radius: 5px;
-    color:white;
-    padding:8px 15px;
-
+.bg-color-header{
+    background-color: #F0FFF0;
 }
-.buy-btn:hover{
-    color:black;
+.button{
+    border-radius: 25px;
 }
 
-.cat1,.cat2,.cat3{
+.card-bd{
+    border: none;
+    background-color: #F0FFF0;
+    border-radius: 30px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.card-bd img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.shadow{
+    border-radius: 12px 0px 12px 0px;
+    box-shadow: 10px 10px 40px slategrey;
+    background-color: #ffffff;
+}
+
+
+.card-img-top{
+    padding: 20px 20px;
+}
+
+.card-bg-2{
+    border-radius: 12px;
+    box-shadow: 5px 20px 30px rgb(190, 193, 196);
     
-    padding:20px 50px;
-    border-radius:15px;
-    
-}
-.category h3{
-    color:white;
-} 
-.cat1{
-    background-image: linear-gradient(to right,orange,purple);
 }
 
-.cat2{
-    background-image: linear-gradient(to right,green,lightgreen);
-}
-.cat3{
-    background-image: linear-gradient(to right,blue,cyan);
+.card-footer{
+    border: none;
+    background-color: #FFFFFF;
 }
 
 
 
-
-
-
-.card{
-    border:none;
-    box-shadow: 2px 3px 25px grey;
-}
-.subscribe{
-    height:300px;
+.man-img-right{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
-footer{
-    text-align: center;
+
+.text-aling{
+    padding: 40px 0px 0px 0px;
 }
+
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin:0;
+}
+}
+
+footer
+{
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+
+.copyright,  .impressum
+{
+  text-align: center;
+}
+
+.logo
+{
+  height: 8vh;
+}
+
+@media (max-width: 768px) 
+{
+  li
+  {
+    margin-left: 0;
+    margin-bottom: 1vh;
+  }
+  
+  .sozial
+  {
+    margin-bottom: 1vh;
+  }
+}
+  
+    .img{
+        width: 20%;
+    }
+
+
